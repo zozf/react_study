@@ -13,6 +13,34 @@ react の勉強
 
 ・コードを編集＆保存するとサイトを更新する機能があり、開発しやすい
 
+・constructor  
+　class をインスタンス化した時に最初に呼ばれる処理  
+　1番最初に処理したいものを記述する
+
+・state  
+　アプリケーションの中で保存される値  
+　js でデータを保存しておくための箱
+
+・onEvent  
+　イベントを表すprops
+
+・onChange  
+　フォーム全体の入力変更を検知
+
+・handleEvent  
+　イベントを処理するメソッド
+
+・e  
+　イベントの変数のこと  
+　イベントが渡されてくる
+
+・setState  
+　state に反映、state の input を指定、state の更新  
+ （js で管理されているため、React Developer Tools で値を確認できる）
+
+・props  
+　React のコンポーネントに渡す値、コンポーネントの再利用
+
 ## コマンド集
 ・npx create-react-app フォルダ名<br>
 　フォルダ名 に react の開発環境を作成

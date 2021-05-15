@@ -41,6 +41,16 @@ react の勉強
 ・props  
 　React のコンポーネントに渡す値、コンポーネントの再利用
 
+・every  
+　配列メソッド  
+　配列全てが true なら true  
+　配列全てが true でなければ false
+
+・filter  
+　配列メソッド  
+　配列に対して filter をかける  
+　filter の中で呼ばれた関数が true を返したものだけ返す
+
 ## コマンド集
 ・npx create-react-app フォルダ名<br>
 　フォルダ名 に react の開発環境を作成
